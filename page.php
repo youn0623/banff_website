@@ -1,10 +1,22 @@
 <?php get_header(); ?>
-<?php get_template_part('custom-template/user','info');?>
 <?php wp_nav_menu(); ?>
 <?php the_title(); ?>
-<img src="<?php echo get_theme_file_uri('assets/wood.jpg')?>">
-<img src="<?php echo get_theme_file_uri( 'assets/stick.jpg' ); ?>">
-<img class= "water-pic" src="<?php echo get_theme_file_uri( 'assets/water.jpg' ); ?>">
+
+<?php if (is_page('Attractions')) : ?>
+    <!-- Display images only on 'About' and 'Contact' pages -->
+    <img class="water-pic" src="<?php echo get_theme_file_uri('assets/wood.jpg')?> ">
+<?php endif; ?>
+
+<?php if (is_page('About us')) : ?>
+    <!-- Display images only on 'About' and 'Contact' pages -->
+    <img class="water-pic" src="<?php echo get_theme_file_uri('assets/stick.jpg')?> ">
+<?php endif; ?>
+
+<?php if (is_page('Contact')) : ?>
+    <!-- Display images only on 'About' and 'Contact' pages -->
+    <img class="water-pic" src="<?php echo get_theme_file_uri('assets/water.jpg')?> ">
+<?php endif; ?>
+
 <?php the_content(); ?>
-<?php get_template_part('custom-template/user','info');?>
+<?php get_template_part('custom-template/google','map');?>
 <?php get_footer(); ?>

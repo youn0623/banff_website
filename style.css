@@ -45,7 +45,7 @@
     position: relative;
     display: inline-block;
     width: 100%; /* Ensure the container takes the full width of the screen */
-    height: 300px; /* Set a specific height for the container */
+    height: 500px; /* Set a specific height for the container */
     overflow: hidden; /* Hide any overflow from the image */
 }
 
@@ -55,4 +55,20 @@
     display: block; /* Ensure proper spacing */
     margin: 0; /* Remove any default margins */
     object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Center the ul horizontally */
+    padding-inline-start: 0;
+}
+
+.menu li {
+    margin: 0 10px; /* Adjust as needed for spacing between items */
+    list-style: none; /* Remove default bullets */
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
 }
