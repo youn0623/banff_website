@@ -1,6 +1,5 @@
 <footer>
-    <h3>All rights reserved @2024</h3>
-    <?php 
+<?php 
     // Your array of footer links with corrected quotes
     $footerLinks = array(
         '<a href="https://banff.ca/">Old Site</a>',
@@ -13,6 +12,7 @@
         echo "$linkArray | ";
     }
     ?>
+    <h3>All rights reserved @2024</h3>
 </footer>
 <?php wp_footer(); ?>
 </body>
