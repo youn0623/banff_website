@@ -1,0 +1,58 @@
+/**
+ * Theme Name:        Banff Website
+ * Description:       Banffv1
+ * Version:           1.0.0
+ * Author:            Kouji
+ * Tags:              block-patterns, full-site-editing
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+ .menu a:hover{
+    color: rgb(105, 255, 108);
+ }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+  }
+
+  .water-pic {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    width: 50%; /* Adjust as needed */
+    display: block; /* Ensure proper spacing */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Ensure the container takes the full width of the screen */
+    height: 300px; /* Set a specific height for the container */
+    overflow: hidden; /* Hide any overflow from the image */
+}
+
+.hero {
+    width: auto; /* Allow the width to adjust based on the height setting */
+    height: 100%; /* Make the image take the full height of its container */
+    display: block; /* Ensure proper spacing */
+    margin: 0; /* Remove any default margins */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+}
