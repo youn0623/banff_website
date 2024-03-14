@@ -8,6 +8,12 @@
     <?php wp_head();?>
 </head>
 <body>
+    <nav>
+        <a href="<?php echo get_theme_file_uri('front-page.php');?>">Home</a>
+        <a href="<?php echo get_theme_file_uri('front-page.php');?>">About</a>
+        <a href="<?php echo get_theme_file_uri('front-page.php');?>">Contact</a>
+        <a href="<?php echo get_theme_file_uri('front-page.php');?>">Attractions</a>
+    </nav>
     <header>
         <p>this is a header</p>
     </header>
