@@ -5,7 +5,7 @@
     $footerLinks = array(`<a href="https://banff.ca/">Old Site</a>`, `<a href="https://education.nationalgeographic.org/resource/erosion/">Science</a>`, `<a href="https://volcano.si.edu/gvp_currenteruptions.cfm">More science</a>`);
 
 foreach ($footerLinks as $linkArray) {
-    echo "$linkArsray | ";
+    echo "$linkArray | ";
   }?>
 </footer>
 <?php wp_footer();
