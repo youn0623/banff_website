@@ -9,7 +9,7 @@
 
     // Loop through the array and echo each link
     foreach ($footerLinks as $linkArray) {
-        echo "$linkArray | ";
+        echo "|", " $linkArray | ";
     }
     ?>
     <h3>All rights reserved @2024</h3>
