@@ -41,6 +41,41 @@
   </div>
 </div>
 
-<h2 class="text-center">Testimonials</h2>
+<h2 id="need-pad" class="text-center">Testimonials</h2>
+<div id="testimonials" class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="testimonial">
+        <img src="<?php echo get_theme_file_uri('assets/image.png')?>" alt="Testimonial 1" class="testimonial-img img-fluid">
+        <h3>John Doe</h3>
+        <h4>Adventurer</h4>
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, nisi nec ultricies efficitur, sem elit bibendum ligula, at dictum eros risus sed quam."
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="testimonial">
+        <img src="<?php echo get_theme_file_uri('assets/image.png')?>" alt="Testimonial 2" class="testimonial-img img-fluid">
+        <h3>Jane Smith</h3>
+        <h4>Nature Enthusiast</h4>
+        <p>
+          "Sed consectetur nec justo eget ultrices. Phasellus bibendum ipsum non felis accumsan, vitae aliquet elit scelerisque."
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="testimonial">
+        <img src="<?php echo get_theme_file_uri('assets/image.png')?>" alt="Testimonial 3" class="testimonial-img img-fluid">
+        <h3>David Johnson</h3>
+        <h4>Hiker</h4>
+        <p>
+          "Fusce hendrerit malesuada felis, sed lobortis orci. Curabitur id enim sed elit pharetra sodales non eu mauris."
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php the_content(); ?>
 <?php get_footer(); ?>
