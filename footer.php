@@ -1,5 +1,5 @@
 <footer>
-<?php 
+    <?php 
     // Your array of footer links with corrected quotes
     $footerLinks = array(
         '<a href="https://banff.ca/">Old Site</a>',
@@ -8,8 +8,12 @@
     );
 
     // Loop through the array and echo each link
-    foreach ($footerLinks as $linkArray) {
-        echo "|", " $linkArray | ";
+    foreach ($footerLinks as $key => $linkArray) {
+        // Check if it's the first link, if not, echo the separator
+        if ($key != 0) {
+            echo " | ";
+        }
+        echo $linkArray;
     }
     ?>
     <h3>All rights reserved @2024</h3>

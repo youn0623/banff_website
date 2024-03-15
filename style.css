@@ -26,16 +26,16 @@
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
-    background-color: #000000; 
+    background-color: #0000009c; 
     color: #fff; 
     padding: 10px 20px; 
-    font-size: 20px; 
+    font-size: 30px; 
     text-align: center;
   }
 
   .water-pic {
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    height: auto; /* Maintain aspect ratio */
+    height: 800px; /* Maintain aspect ratio */
     width: 50%; /* Adjust as needed */
     display: block; /* Ensure proper spacing */
     margin: 0 auto; /* Center the image horizontally */
@@ -75,4 +75,12 @@
 
 footer {
   text-align: center;
+}
+
+.Banff-head {
+  padding-top: 10px;
+}
+
+h2 {
+  padding-top: 20px;
 }

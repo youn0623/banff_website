@@ -9,5 +9,5 @@
 </head>
 <body>
     <header>
-        <p>this is a header</p>
+        <h1 class="Banff-head">Banff</h1>
     </header>
