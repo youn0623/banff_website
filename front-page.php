@@ -3,6 +3,8 @@
 <?php get_template_part('part', 'hero'); ?>
 <h1 class="text-center">This Is My Homepage</h1>
 <img class="water-pic" src="<?php echo get_theme_file_uri('assets/water.jpg')?>">
+
+<section>
 <h2 class="text-center">Picture Carousel</h2>
 <div class="container">
   <div id="myCarousel" class="carousel slide mx-auto" data-ride="carousel" style="max-width: 600px;">
@@ -40,7 +42,9 @@
     </a>
   </div>
 </div>
+</section>
 
+<section>
 <h2 id="need-pad" class="text-center">Testimonials</h2>
 <div id="testimonials" class="container">
   <div class="row">
@@ -76,6 +80,21 @@
     </div>
   </div>
 </div>
+</section>
 
+<section class= "video">
+<iframe src="https://player.vimeo.com/video/226761321?h=f75b95dada" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<h4>Blog Post</h4>
+<div>
+  <?php 
+  $args = array(
+    'post_type' => 'post',
+    'posts_per_page' => -1,
+  ):
+  $query= new WP_Query($args);
+  ?>
+</div>
 <?php the_content(); ?>
 <?php get_footer(); ?>
