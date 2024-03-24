@@ -16,7 +16,7 @@
  }
 
  .menu a{
-  color: green !important;
+  color: black !important;
  }
   
   .image-container img {
@@ -33,37 +33,33 @@
     background-color: rgba(0, 0, 0, 0.6); 
     color: #ECF0F1; 
     padding: 10px 20px; 
-    font-size: 3vw; /* Responsive font size */
+    font-size: 3vw; 
     text-align: center;
-    z-index: 1; /* Ensure the text appears above the image */
+    z-index: 1; 
 }
 
 .image-container {
   position: relative;
   display: inline-block;
-  width: 100%; /* Ensure the container takes the full width of the screen */
-  max-height: 600px; /* Set a maximum height for the container */
-  overflow: hidden; /* Hide any overflow from the image */
+  width: 100%; 
+  max-height: 600px; 
+  overflow: hidden; 
 }
 
 .hero {
-  width: 100%; /* Ensure the image takes the full width of its container */
-  height: auto; /* Allow the height to adjust based on the container size */
-  display: block; /* Ensure proper spacing */
-  margin: 0; /* Remove any default margins */
-  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  width: 100%; 
+  height: auto;
+  display: block;
+  margin: 0; 
+  object-fit: cover; 
 }
 
-
-
-
-
 .water-pic {
-  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-  height: 500px; /* Maintain aspect ratio */
-  width: 80%; /* Adjust as needed */
-  display: block; /* Ensure proper spacing */
-  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; 
+  height: 500px; 
+  width: 80%; 
+  display: block; 
+  margin: 0 auto; 
 }
 
 .menu {
@@ -116,7 +112,7 @@ body {
 }
 
 * {
-  color: #000000; /* Evergreen Green */
+  color: #000000; 
 }
 
 h3 {
@@ -124,7 +120,7 @@ h3 {
 }
 
 a {
-  color: #138D75 !important;
+  color: black !important;
 }
 
 p, li {
@@ -134,4 +130,48 @@ text-align: center;
 .wp-block-heading{
   text-align: center !important;
 }
+
+/*----------------------------------------------------------------
+ * search.php
+ *----------------------------------------------------------------*/
+
+ .search-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-form input[type="search"] {
+  width: 90%;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-results {
+  padding: 20px;
+  background-color: #138D75;
+}
+
+.search-results h2 {
+  margin-bottom: 20px;
+}
+
+.search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search-results li {
+  margin-bottom: 20px;
+}
+
+.search-results h3 {
+  font-size: 1.2em;
+}
+
+.search-results p {
+  font-style: italic;
+  color: black;
+}
+
 

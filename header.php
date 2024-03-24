@@ -10,4 +10,6 @@
 <body>
     <header>
         <h1 class="Banff-head">Banff</h1>
+        <?php wp_nav_menu(); ?>
+        <?php get_search_form(); ?>
     </header>
