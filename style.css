@@ -11,6 +11,19 @@
  * License:           GNU General Public License v2.0 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
+
+ body {
+  font-family: 'Libre Franklin', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Franklin', sans-serif !important;
+}
+
+p {
+  font-family: 'Libre Franklin', sans-serif !important;
+}
+
  .menu a:hover{
     color: rgb(105, 255, 108);
  }
@@ -172,6 +185,13 @@ text-align: center;
 .search-results p {
   font-style: italic;
   color: black;
+}
+
+/* icons */
+.social-icons {
+  background-color: #85C1E9;
+  text-align: right;
+  padding: 10px;
 }
 
 

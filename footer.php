@@ -38,6 +38,7 @@
     }
     ?>
     <h3>All rights reserved @2024</h3>
+    <?php get_sidebar('primary'); ?>
 </footer>
 <?php wp_footer(); ?>
 </body>
