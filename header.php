@@ -13,11 +13,13 @@
 </head>
 <body>
     <header>
-    <?php
+        <?php
 if ( is_active_sidebar( 'header-widget-area' ) ) :
     dynamic_sidebar( 'header-widget-area' );
 endif;
 ?>
+    <?php $telephone_number = get_option('telephone_number'); ?>
+<p>Tel number: <?php echo $telephone_number; ?></p>
         <h1 class="Banff-head">Banff</h1>
         <?php wp_nav_menu(); ?>
     <div class="social-icons">

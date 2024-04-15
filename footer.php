@@ -1,4 +1,13 @@
 <footer>
+    
+<div id="footer-widgets" class="footer-widgets">
+    <?php if ( is_active_sidebar( 'footer-widget' ) ) : ?>
+        <div class="footer-widget-area">
+            <?php dynamic_sidebar( 'footer-widget' ); ?>
+        </div>
+    <?php endif; ?>
+</div>
+
     <?php 
     $footerLinks1 = array(
         '<a href="https://banff.ca/">Old Site</a>'

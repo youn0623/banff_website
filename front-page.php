@@ -51,27 +51,27 @@ get_template_part('part', 'hero');
 // Array of random names and descriptions
 $team_members = array(
     array(
-        'name' => 'John Doe',
+        'name' => 'Jolyne Cujoh',
         'description' => 'Experienced adventurer with a passion for exploration.'
     ),
     array(
-        'name' => 'Jane Smith',
+        'name' => 'Ken Kaneki',
         'description' => 'Nature enthusiast and outdoor lover.'
     ),
     array(
-        'name' => 'David Johnson',
+        'name' => 'Denji Pochita',
         'description' => 'Hiker and outdoor sports enthusiast.'
     ),
     array(
-        'name' => 'Emily Brown',
+        'name' => 'Mayo N. Naise',
         'description' => 'Passionate environmentalist and wildlife advocate.'
     ),
     array(
-        'name' => 'Michael Wilson',
+        'name' => 'Denzel Quincy Crocker',
         'description' => 'Photographer capturing the beauty of nature.'
     ),
     array(
-        'name' => 'Sarah Anderson',
+        'name' => 'Morgan Freeman',
         'description' => 'Adventurous traveler exploring new horizons.'
     )
 );
@@ -107,18 +107,18 @@ $team_members = array(
       <?php
       $testimonials = array(
         array(
-          'name' => 'John Doe',
+          'name' => 'Smith Smith',
           'occupation' => 'Adventurer',
           'quote' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, nisi nec ultricies efficitur, sem elit bibendum ligula, at dictum eros risus sed quam.'
         ),
         array(
-          'name' => 'Jane Smith',
+          'name' => 'Jane Jane',
           'occupation' => 'Nature Enthusiast',
           'quote' => 'Sed consectetur nec justo eget ultrices. Phasellus bibendum ipsum non felis accumsan, vitae aliquet elit scelerisque.'
         ),
         array(
-          'name' => 'David Johnson',
-          'occupation' => 'Hiker',
+          'name' => 'David Luffy',
+          'occupation' => 'Pirate',
           'quote' => 'Fusce hendrerit malesuada felis, sed lobortis orci. Curabitur id enim sed elit pharetra sodales non eu mauris.'
         )
       );
